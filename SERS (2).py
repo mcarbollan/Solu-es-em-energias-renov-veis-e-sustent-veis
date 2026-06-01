@@ -70,9 +70,7 @@ def tomada_decisao(temp, energia, comunicacao, status):
 
 def mostrar_dados(temp, energia, comunicacao, status):
 
-    print("\n===================================")
     print(" MONITORAMENTO DA MISSÃO ESPACIAL ")
-    print("===================================")
 
     print(f"Temperatura: {temp} °C")
     print(f"Energia: {energia}%")
@@ -89,9 +87,6 @@ def mostrar_dados(temp, energia, comunicacao, status):
         print("Nenhum alerta detectado.")
 
     tomada_decisao(temp, energia, comunicacao, status)
-
-    print("===================================\n")
-
 
 # LOOP PRINCIPAL
 
